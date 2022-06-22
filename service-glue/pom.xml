@@ -5,15 +5,15 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.3.RELEASE</version>
+        <version>2.7.0</version>
         <relativePath/>
     </parent>
 	<groupId>com.eposnow</groupId>
-	<artifactId>service-glue</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>service-framework</artifactId>
+	<version>0.0.3</version>
 	<packaging>jar</packaging>
-	<name>service-glue</name>
-	<description>Provides common functionalities of eposNow microservices</description>
+	<name>service-framework</name>
+	<description>Provides common functionalities of eposnow microservices</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -31,22 +31,15 @@
         </dependency>
 
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>2.9.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>2.9.2</version>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.6.9</version>
         </dependency>
 
          <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.8</version>
-            <scope>provided</scope>
+             <scope>provided</scope>
         </dependency>
 	</dependencies>
 </project>
